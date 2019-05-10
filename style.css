@@ -1,0 +1,63 @@
+.pic {
+
+	font-size: 50px;
+	color: green;
+
+}
+
+
+nav {
+    position: fixed;
+    top: 15%;
+    left: 0%;
+    Width: 100%;
+    background-color: grey;
+    Border: 1px solid red;
+    z-index: 1;
+}
+
+.main-menu>li{
+  list-style: none;
+  float: left;
+  margin: 10px;
+}
+.menu{
+  position: absolute;
+  display: none;
+}
+.menu li{
+  list-style: none;
+  padding: 3px;
+  background: green;
+}
+.menu li:hover{
+  background: #f23f;
+}
+.dropdown:hover .menu{
+  display: block;
+}
+
+
+.box {
+
+    position: absolute;
+    border: 2px solid;
+
+}
+.box1 {
+
+    width: 40%;
+    height: 40%;
+    left: 30%;
+    bottom: 30%;
+    background-color: red;
+
+}
+
+
+.box2 {
+    width: 10%;
+    height: 10%;
+    left: 45%;
+    bottom: 45%;
+    background-color: yellow;
